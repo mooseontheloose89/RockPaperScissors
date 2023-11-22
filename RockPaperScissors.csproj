@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Index.html" />
+    <None Include="wwwroot\JS\script.js" />
+    <None Include="wwwroot\CSS\styles.css" />
+  </ItemGroup>
+
+</Project>
