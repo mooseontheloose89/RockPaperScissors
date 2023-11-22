@@ -6,13 +6,20 @@
 </head>
 <body>
     <h1>Rock Paper Scissors</h1>
-    <div>Player Score: <span id="playerScore">0</span></div>
-    <div>Computer Score: <span id="computerScore">0</span></div>
-    <div> Ties: <span id="ties">0</span></div>
-    <button id="rock">Rock</button>
-    <button id="paper">Paper</button>
-    <button id="scissors">Scissors</button>
-    <button id="clearScore">Reset Score</button>
+    <div class="game-container">
+        <div class="score-section">
+            <div>Player Score: <span id="playerScore">0</span></div>
+            <div>Computer Score: <span id="computerScore">0</span></div>
+            <div> Ties: <span id="ties">0</span></div>
+        </div>
+        <div class="button-container">
+            <button id="rock">Rock</button>
+            <button id="paper">Paper</button>
+            <button id="scissors">Scissors</button>
+            <button id="clearScore">Reset Score</button>
+        </div>
+    </div>    
+    
     <div id="result"></div>
     <script src="JS/script.js"></script>
 </body>

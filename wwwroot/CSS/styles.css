@@ -22,6 +22,7 @@ button {
     color: white;
     border: none;
     padding: 15px 30px;
+    width: 250px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -44,14 +45,22 @@ button:hover {
     font-weight: bold;
 }
 
-.button-container {
+.game-container {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.button-container, .score-section {
     border: 1px solid #ddd;
     padding: 20px;
-    display: inline-block;
-    margin-top: 20px
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .score-section {
     font-size: 20px;
-    margin-bottom: 10px;
 }
