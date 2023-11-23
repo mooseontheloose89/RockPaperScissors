@@ -1,4 +1,13 @@
-﻿let playerScore = 0;
+﻿if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/service-worker.js').then(function (registration) {
+        console.log('Service Worker Registered!', registration);
+    }).catch(function (error) {
+        console.log('Service Worker Registration failed:', error);
+    });
+}
+
+
+let playerScore = 0;
 let computerScore = 0;
 let ties = 0;
 let totalRounds = 3;
