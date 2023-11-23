@@ -11,7 +11,7 @@ h1 {
     color: #333;
 }
 
-#playerScore, #computerScore, #ties {
+#playerScore, #computerScore, #ties, .score-section {
     font-size: 24px;
     font-weight: bold;
 }
@@ -54,7 +54,6 @@ button:hover {
 }
 
 .button-container, .score-section {
-    border: 1px solid #ddd;
     padding: 20px;
     display: inline-flex;
     flex-direction: column;
@@ -62,5 +61,19 @@ button:hover {
 }
 
 .score-section {
+    border: 1px solid #ddd
     font-size: 20px;
+}
+
+#historyList {
+    list-style-type: none; 
+    padding: 0;
+    text-align: center;
+}
+
+#historyList li {
+    background-color: #e0e0e0;
+    margin-top: 2px;
+    padding: 2px 5px;
+    border-radius: 5px;
 }

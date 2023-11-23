@@ -6,6 +6,21 @@
 </head>
 <body>
     <h1>Rock Paper Scissors</h1>
+
+    <div>
+        <label for="rounds">Best of</label>
+        <select id="rounds">
+            <option value="3">3</option>
+            <option value="5">5</option>
+            <option value="10">10</option>
+        </select>
+        rounds
+    </div>
+    <button id="startGame">Start Game</button>
+    <div id="roundsHistory">
+        <h2>Round History (Last 10 rounds)</h2>
+        <ul id="historyList"></ul>
+    </div>
     <div class="game-container">
         <div class="score-section">
             <div>Player Score: <span id="playerScore">0</span></div>
@@ -18,8 +33,8 @@
             <button id="scissors">Scissors</button>
             <button id="clearScore">Reset Score</button>
         </div>
-    </div>    
-    
+    </div>
+
     <div id="result"></div>
     <script src="JS/script.js"></script>
 </body>
